@@ -1,12 +1,14 @@
-import React, {useState} from "react";
+import React from "react";
+import "../../../App.css";
 import Numbers from "./Numbers";
 
-const NumberButton = (props) => {
+
+const NumberButton = () => {
 
   return (
     <>
-    <button className="numberButtons">
-      {props.numbers}
+    <button className="numberButton">
+      {/* {<Numbers />} */}
       </button>
     </>
   );
