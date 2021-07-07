@@ -20,3 +20,12 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .numberButton {
+      display: flex;
+      flex-direction: wrap;
+      background: #457fa8;
+      color: white;
+      font-size: 3.0rem;
+      border-radius: 50%;
+  }
